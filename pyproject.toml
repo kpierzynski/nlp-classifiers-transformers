@@ -1,0 +1,28 @@
+[project]
+name = "nlp-dl-project"
+version = "2023.0.0"
+authors = []
+readme = "README.md"
+
+
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''

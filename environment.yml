@@ -1,0 +1,24 @@
+name: nlp-dl
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - black
+  - isort
+  - flake8
+  - ca-certificates
+  - openssl
+  - ipykernel
+  - pandas
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+    - pre-commit
+    - wandb
+    - transformers[torch]
+    - datasets
+

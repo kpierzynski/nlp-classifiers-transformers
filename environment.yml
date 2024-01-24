@@ -15,10 +15,16 @@ dependencies:
   - pytorch
   - torchvision
   - pytorch-cuda=12.1
+  - jupyterlab
   - pip
   - pip:
     - pre-commit
     - wandb
     - transformers[torch]
     - datasets
+    - peft
+    - evaluate
+    - IProgress
+    - ipywidgets
+    - scikit-learn
 
